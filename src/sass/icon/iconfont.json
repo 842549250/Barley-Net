@@ -1,0 +1,65 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1513759",
+      "name": "微信",
+      "font_class": "3-copy",
+      "unicode": "e505",
+      "unicode_decimal": 58629
+    },
+    {
+      "icon_id": "2842061",
+      "name": "微博",
+      "font_class": "weibo",
+      "unicode": "e646",
+      "unicode_decimal": 58950
+    },
+    {
+      "icon_id": "3212718",
+      "name": "QQ",
+      "font_class": "QQ",
+      "unicode": "e623",
+      "unicode_decimal": 58915
+    },
+    {
+      "icon_id": "3224737",
+      "name": "支付宝",
+      "font_class": "zhifubao",
+      "unicode": "e607",
+      "unicode_decimal": 58887
+    },
+    {
+      "icon_id": "6828828",
+      "name": "锁子",
+      "font_class": "suozi",
+      "unicode": "e891",
+      "unicode_decimal": 59537
+    },
+    {
+      "icon_id": "7134222",
+      "name": "客服",
+      "font_class": "kefu",
+      "unicode": "e9cc",
+      "unicode_decimal": 59852
+    },
+    {
+      "icon_id": "11217329",
+      "name": "用户名",
+      "font_class": "yonghuming",
+      "unicode": "e6b8",
+      "unicode_decimal": 59064
+    },
+    {
+      "icon_id": "14623238",
+      "name": "淘宝",
+      "font_class": "taobao",
+      "unicode": "e618",
+      "unicode_decimal": 58904
+    }
+  ]
+}

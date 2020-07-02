@@ -1,0 +1,28 @@
+//下载二维码
+$('.header-dow').mouseenter(function(){
+    $('.user-dow').css('display','block');
+})
+$('.header-dow').mouseleave(function(){
+    $('.user-dow').css('display','none');
+})
+//登录
+$('.header-login').mouseenter(function(){
+    $('.user-list').css('display','block');
+})
+$('.header-login').mouseleave(function(){
+    $('.user-list').css('display','none');
+})
+//点击搜索
+$('.search-for').click(function(){
+    $('.search-for').css('border-color','#FF1268');
+})
+$('html').click(function(){
+    $('.search-for').css('border-color','0');
+})
+//侧边栏APP下载
+$('.foot-dow').mouseenter(function(){
+    $('.item-dow').css('display','block');
+})
+$('.foot-dow').mouseleave(function(){
+    $('.item-dow').css('display','none');
+})

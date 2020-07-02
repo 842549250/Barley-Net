@@ -1,0 +1,292 @@
+//公共样式
+.header-wrap, .footer-wrap, .login-wrap{
+    width: 1200px;
+    margin: 0 auto;
+}
+// 头部
+.header-wrap{
+    height: 90px;
+    img{
+        float: left;
+        width: 105px;
+        height: 48px;
+        margin-top: 24px;
+    }
+    .header-Eng{
+        float: right;
+        width: 121px;
+        height: 38px;
+        line-height: 38px;
+        font-size: 14px;
+        color: #888888;
+        border: 1px solid #ebebeb;
+        text-align: center;
+        margin-top: 24px;
+    }
+}
+
+// 登录界面
+#login{
+    background: #17073d;
+    .login-wrap{
+        height: 600px;
+        .login-bg{
+            display: block;
+            width: 720px;
+            height: 400px;
+            float: left;
+            margin: 100px 0 0 25px;
+        }
+        .login-r{
+            width: 350px;
+            height: 344px;
+            background: #fff;
+            float: right;
+            margin: 90px 25px 0 0;
+            ul{
+                height: 38px;
+                width: 350px;
+                li{
+                    height: 38px;
+                    float: left;
+                    width: 116px;
+                    text-align: center;
+                    font-size: 16px;
+                    line-height: 38px;
+                    background: #e7e7e7;
+                    a{
+                        color: #222222;
+                    }
+                }
+                .login-g{
+                    line-height: 36px;
+                    color: #ff1268;
+                    border-top: 2px solid #ff1268;
+                    background: #ffffff;
+                    box-sizing: border-box;
+                }
+            }
+            .login-den{
+                width: 298px;
+                height: 40px;
+                margin: 22px auto 20px auto;
+                border: 1px solid #e7e7e7;
+                i{
+                    display: block;
+                    float: left;
+                    width: 40px;
+                    height: 40px;
+                    background: #ccc;
+                    font-size: 24px;
+                    text-align: center;
+                    line-height: 40px;
+                    color: #fff;
+                }
+                .login-inp{
+                    float: left;
+                    border: none;
+                    width: 248px;
+                    height: 40px;
+                    padding-left: 10px;
+                    font-size: 14px;
+                }
+            }
+            .login-pass{
+                width: 298px;
+                height: 40px;
+                margin: 0 auto ;
+                border: 1px solid #e7e7e7;
+                i{
+                    display: block;
+                    float: left;
+                    width: 40px;
+                    height: 40px;
+                    background: #ccc;
+                    font-size: 24px;
+                    text-align: center;
+                    line-height: 40px;
+                    color: #fff;
+                }
+                .login-password{
+                    float: left;
+                    border: none;
+                    width: 248px;
+                    height: 40px;
+                    padding-left: 10px;
+                    font-size: 14px;
+                }
+            }
+            .login-btn{
+                width: 300px;
+                height: 42px;
+                margin: 20px 0 0 25px;
+                background: linear-gradient(90deg,#ff4aae,#ff1268);
+                border: none;
+                color: #fff;
+                cursor: pointer;
+                font-weight: bolder;
+                font-size: 20px;
+                border-radius: 3px;
+                border: 1px solid #ff9000;
+            }
+            .login-show{
+                width: 300px;
+                height: 22px;
+                margin: 18px 0 25px 25px;
+                i{
+                    display: block;
+                    float: left;
+                    width: 22px;
+                    height: 22px;
+                    font-size: 22px;
+                    line-height: 22px;
+                    margin-right: 10px;
+                    cursor: pointer;
+                }
+                .icon-taobao{
+                    color: #ef573c;
+                }
+                .icon-3-copy{
+                    color: #7ed321;
+                }
+                .icon-QQ{
+                    color: #18acfc;
+                }
+                .icon-weibo{
+                    color: #e62425;
+                }
+                .icon-zhifubao{
+                    color: #1296db;
+                }
+            }
+            .login-ft{
+                padding-left: 203px;
+                a{
+                    display: block;
+                    font-size: 14px;
+                    line-height: 14px;
+                    color: #0088cc;
+                    float: left;
+                    margin-left: 10px;
+                }
+            } 
+        }
+    }
+}
+
+// 底部footer
+#footer{
+    background: #f8f8f8;
+    .footer_links{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 36px 0;
+        text-align: center;
+        zoom: 1;
+        .footer_links_list{
+            float: left;
+            font-size: 14px;
+            color: #111;
+            a{
+                font-size: 14px;
+                color: #111;
+            }
+        }
+        .footer_links_list:hover a{
+            color: #ff1268;
+            text-decoration:underline;
+        }
+        .footer_links_shu{
+            float: left;
+            padding: 0 24px;
+        }    
+    }
+    .footer_ft{
+        margin-bottom: 58px;
+        zoom: 1;
+        .footer_ft_fl{
+            float: left;
+            margin-right: 100px;
+            .footer_ft_logo{
+                zoom: 1;
+                float: left;
+                margin-top: 20px;
+            }
+            .footer_ft_ewm{
+                float: left;
+                width: 87px;
+                text-align: center;
+                margin-left: 40px;
+                .footer_ewm_img{
+                    display: block;
+                    width: 87px;
+                    height: 87px;
+                    margin-bottom: 8px;
+                }
+                span{
+                    font-size: 14px;
+                    color: #111;
+                    text-align: center;
+                }
+            }
+        }
+        .footer_ft_fr{
+            float: left;
+            .footer_ft_cont{
+                zoom: 1;
+                padding-bottom: 10px;
+                .footer_ft_cont_btn{
+                    float: left;
+                    display: block;
+                    width: 98px;
+                    height: 27px;
+                    line-height: 27px;
+                    text-align: center;
+                    background: #ff1268;
+                    color: #fff;
+                    font-size: 14px;
+                    border-radius: 20px;
+                }
+            }
+            .footer_ft_xq{
+                padding-bottom: 6px;
+                li{
+                    float: left;
+                    font-size: 13px;
+                    color: #111;
+                    a{
+                        font-size: 13px;
+                        color: #111;
+                    }
+                }
+                .footer_ft_grep{
+                    padding: 0 14px;
+                }
+                .footer_ft_list:hover a{
+                    color: #ff1268;
+                }
+                
+            }
+            .footer_ft_img{
+                padding-top: 15px;
+                a .footer_ft_img1{
+                    float: left;
+                    width: 118px;
+                    height: 30px;
+                }
+                a .footer_ft_img2{
+                    float: left;
+                    width: 53px;
+                    height: 30px;
+                }
+                a .footer_ft_img3{
+                    float: left;
+                    width: 85px;
+                    height: 30px;
+                }
+            }
+
+        }
+    }
+}

@@ -6,11 +6,11 @@ $('.regtxt').blur(function checkUser(cb){
             username:$('.regtxt').val()
         },
         success:function(data){
-            if(data='0'){
-                alert('该用户名不能为空');
-                return;
-            }
-            if(data='1'){
+            // if(data='0'){
+            //     alert('该用户名不能为空');
+            //     return;
+            // }
+            if(data=0){
                 alert('该用户可以用');
             }
         }
@@ -26,7 +26,8 @@ $('.btn').click(function reg(){
         },
         success:function(data){
             if(data==1){
-               alert('注册成功');
+               alert('注册成功,自动跳转到登录页面');
+               location.href = './login.html';
             }else if(data==0){
                 alert("注册失败，请重新注册");
             }

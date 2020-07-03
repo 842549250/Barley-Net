@@ -133,10 +133,10 @@
                 text-align: center;
                 border-bottom: 1px solid #f2f2f2;
             }
-        }
-        .user-list a:hover {
-            color: #FF1268;
-            background-color: #fff4f8;
+            .user-list a:hover {
+                color: #FF1268;
+                background-color: #fff4f8;
+            }
         }
         .user-dow{
             position: absolute;
@@ -160,7 +160,7 @@
 .content-wrap{
     border: 1px solid #ebebeb;
     border-top: 0;
-    .cont-l{
+    .cont-l, .cont-l2{
         float: left;
         width: 820px;
         padding: 40px 30px 0;
@@ -298,6 +298,7 @@
             }
         }
         .cont-nav{
+            float: left;
             display: inline-block;
             width: 850px;
             height: 54px;

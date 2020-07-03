@@ -14,14 +14,14 @@ $('.btn3').click(function(){
         },
         success:function(data){
             if (data == 1){
-                let count = 5;
+                let count = 1;
                 let myTimer = setInterval(()=>{
                     count--;
                     if(count==0){
                         window.clearInterval(myTimer);
                         location.href = './index.html'
                     }
-                    alert('登录成功');
+                    alert('登录成功,三秒后跳转');
                     // $('#msg').css("color","green").html(`登录成功，${count}秒后，自动跳转到<a href='./index.html'>首页</a>`)
                 },1000);
             }else if(data==0){

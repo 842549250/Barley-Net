@@ -6,12 +6,12 @@ $('.regtxt').blur(function checkUser(cb){
             username:$('.regtxt').val()
         },
         success:function(data){
-            if(data==0){
+            if(data='0'){
+                alert('该用户名不能为空');
+                return;
+            }
+            if(data='1'){
                 alert('该用户可以用');
-                return;
-            }else{
-                alert('用户名不能为空');
-                return;
             }
         }
     })

@@ -72,7 +72,7 @@ $.get({
         data.forEach(function(item,index,arr){
             htmlStr +=
             `
-            <a href="./html/details.html?goodsId=${item['goodsId']}" class="box-left">
+            <a class="box-left" href="./details.html?goodsId=${item['goodsId']}" >
                 <img class="box-left_bg" src="${item['goodsImg']}" alt="">
                 <div class="box-left_info">
                     <div class="title">${item['goodsName']}</div>
